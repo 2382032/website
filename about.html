@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    footer {
+      background-color: #2d3748;
+      color: rgb(67, 201, 211);
+      text-align: center;
+      padding: 1rem;
+      margin-top: 4rem;
+    }
+
+    .bg-gradient {
+      background: linear-gradient(45deg, #ffffff, #667eea);
+    }
+
+    .hover-effect:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .button-hover:hover {
+      background-color: #2b6cb0;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      color: #4a90e2;
+      font-size: 1.5rem;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: #2b6cb0;
+    }
+    
+</style>
+<body class="bg-gradient text-gray-800 flex flex-col min-h-screen">
+    <header class="bg-gray-700 text-blue-200 py-4 shadow-lg border-b border-blue-300">
+        <nav class="container mx-auto px-4 md:px-8">
+          
+          <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+            <div class="flex flex-col items-center">
+              <img src="logomhw.png" alt="Logo" class="h-12">
+              <h1 class="text-lg font-extrabold text-white mt-2">MHW</h1>
+            </div>
+    
+            <ul class="flex flex-col mt-4 space-y-4 md:flex-row md:space-y-0 md:space-x-8 md:mt-0 text-lg text-center">
+              <li><a href="index.html" class="text-white hover:text-blue-300">Home</a></li>
+              <li><a href="about.html" class="text-white hover:text-blue-300">About</a></li>
+              <li><a href="gallery.html" class="text-white hover:text-blue-300">Gallery</a></li>
+              <li><a href="calculator.html" class="text-white hover:text-blue-300">Calculator</a></li>
+              <li><a href="registration.html" class="text-white hover:text-blue-300">Registration</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <div class="max-w-4xl mx-auto p-6 mt-8 bg-gray-700 shadow-lg rounded-lg">
+        <h1 class="text-3xl font-bold text-center text-white mb-6">About Me</h1>
+        <div class="flex justify-center mb-6">
+            <img src="hendrikh photo.jpg" alt="My Photo" class="rounded-full w-32 h-32 object-cover hover-effect">
+        </div>
+        <h3 class="text-center text-white mb-4">
+            Hello! My name is Misael Hendrikh Witjaksono. I am a student currently at UNAI and I am passionate about technology.
+        </h3>
+        <p class="text-center text-white mb-4">
+            A little description about me honestly, I am a person who doesn't like crowds and commotion. I really enjoy playing games and watching movies late at night.
+        </p>
+        <br>
+    
+        <h2 class="text-center font-semibold text-white mb-4">Education</h2>
+        <p class="text-center text-white mb-4">
+            I graduated from state high school. My time there taught me the true value of friendship.
+        </p>
+        <br>
+    
+        <h3 class="text-center font-semibold text-white mb-4">Hobbies and Interests</h3>
+        <p class="text-center text-white mb-4">
+            In my free time, I enjoy pursuing hobbies that help me relax and grow creatively. Some of my favorite activities include:
+        </p>
+        <ul class="flex flex-col items-center space-y-2 text-lg text-white mb-4">
+            <li>Playing video games</li>
+            <li>Listening to music</li>
+            <li>Playing basketball (sometimes)</li>
+        </ul>
+        <br>
+    
+        <h4 class="text-center font-semibold text-white mb-4">Favorite Movies</h4>
+        <p class="text-center text-white mb-4">Fast And Furious</p>
+    </div>    
+
+    <footer class="bg-gray-800 text-center text-white py-4 mt-8">
+        <p class="mb-4">Follow me on:</p>
+        <div class="social-icons flex justify-center space-x-6">
+            <a href="https://www.instagram.com/mslhendrikh/profilecard/?igsh=ajI1enc3NTQzZ2Vh" target="_blank" class="hover:text-blue-600">
+                <img src="logoig.png" class="w-8 h-8">
+            </a>
+        </div>
+        <h1 class="font-extrabold">Instagram</h1>
+    </footer>    
+
+</body>
+</html>
